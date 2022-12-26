@@ -1,0 +1,285 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+/* a:hover {
+    color: #333;
+} */
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p{
+    margin:10px 0;
+}
+
+/* Utility Classes */
+.container{
+    margin:auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 5px 20px;
+}
+
+.bg-primary{
+    background:#f2ceaa;
+    border-radius: 10px;
+    margin:30px;
+}
+
+.text-primary{
+    color:#f7c08a;
+}
+
+.lead{
+    font-size:50px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.btn{
+    display:inline-block;
+    font-size: 18px;
+    color:white;
+    background: #333;
+    padding:13px;
+    border:none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    background:#f7c08a;
+    color:#333;
+}
+
+.btn-light{
+    background: #f4f4f4;
+    color:#333;
+}
+
+.bg-dark{
+    background: #333;
+    color:#f4f4f4
+}
+
+.bg-light{
+    background: #f7c08a;
+}
+
+.clr{
+    clear: both;
+}
+
+.a-heading{
+   font-size: 40px;
+}
+
+.test{
+    text-align: center;
+}
+
+/* Padding */
+.py-1 { padding:10px 0;}
+.py-2 { padding:20px 0;}
+.py-3 { padding:30px 0;}
+
+/* Navbar */
+#navbar{
+    background: #333;
+    color:white;
+    overflow: auto;
+}
+
+#navbar h1{ 
+    float:left;
+    padding-top: 15px;
+}
+
+#navbar ul{
+    list-style: none;
+    float : right;
+}
+
+#navbar ul li{
+    float:left;
+    display:block;
+    padding:15px;
+    margin:5px;
+    text-align:center;
+}
+
+.current{
+    background:#f7c08a;
+    color:#333;
+    border-radius: 20px;
+    
+}
+
+#navbar ul li:hover {
+    background:#f7c08a;
+    color:black;
+    border-radius: 20px;
+}
+
+
+
+/* .break{
+    border-bottom:1px white solid;
+} */
+
+/* Showcase */
+#showcase{
+    background: url('../img/hotel-1-faded.png') no-repeat center center/cover;
+    height:600px;
+}
+
+.monk img{
+    width: 100px;
+}
+
+#showcase .showcase-content{
+    color:#fff;
+    text-align: center;
+    padding-top:100px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+    padding-bottom:20px;
+    line-height:1.7em;
+}
+
+/* Home Info */
+#home-info {
+    height:450px;
+}
+
+#home-info .info-img{
+    float:left;
+    width:50%;
+    background: url('../img/hotel-2.jpg') no-repeat center center/cover;
+    min-height:100%;
+}
+
+#home-info .info-content{
+    float:right;
+    width:50%;
+    height:100%;
+    text-align: center;
+    padding: 25px 30px;
+    overflow: hidden;
+}
+
+/* Features */
+
+
+.box{
+    float:left;
+    width:33.3%; 
+    height:320px;
+    padding : 50px;
+    overflow: auto;
+    text-align: center;
+}
+
+.box img{
+    width:50px;
+}
+
+/* CONTACT */
+#contact .form-group{
+    margin-bottom: 10px;
+}
+
+#contact label{
+    display: block;
+    margin-bottom:5px;
+}
+
+#contact input, #contact textarea{
+    width:100%;
+    border-radius: 10px;
+    border: 1px solid #333;
+    padding: 5px;
+}
+
+#contact input:focus,
+#contact textarea:focus{
+    outline: none;
+    border-color: #f7c08a;
+}
+
+#contact textarea{
+    height:100px; 
+}
+
+
+/* ABOUT */
+
+.info-left{
+    float:left;
+    width:50%;
+}
+
+#about-info .info-right{
+    float:right;
+    width:50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img{
+    width:60%;
+    margin:10px 110px;
+    display: block;
+    border-radius: 10%;
+}
+
+#testimonials{
+    background: url('../img/hotel-1-faded.png') no-repeat center center/cover;
+    width:100%;
+    min-height:600px;
+    padding-top:40px;
+}
+
+#testimonials h2{
+    padding:50px;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+#testimonials .testimonial{
+    padding:50px;
+    opacity:0.8;
+}
+
+#testimonials .testimonial img{
+    float:left;
+    width:100px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: white;
+    padding: 20px;
+}
